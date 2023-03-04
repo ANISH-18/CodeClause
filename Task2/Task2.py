@@ -49,8 +49,7 @@ class text_editor:
         self.text_area.insert(INSERT, self.text_area.clipboard_get())
 
     def about(self):
-        messagebox.showinfo("About",
-                            "Aniruddha Editor CodeClause")
+        messagebox.showinfo("About","Aniruddha Editor CodeClause")
 
     def __init__(self, master):
         self.master = master
